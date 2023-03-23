@@ -1,0 +1,42 @@
+
+
+.contenedorPadre{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 10px;
+    width: 670px;
+    height: 220px;
+    background-color: beige;
+    justify-content: center;
+    align-items: center;
+    margin: 200px auto;
+}
+
+.tres{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.cuatro{
+    grid-column-start: 5;
+    grid-column-end: 7;
+    
+}
+
+.cinco{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    
+}
+
+.itemHijo{
+    display: flex;
+    height: 100%;
+    background-color: aquamarine;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+}
